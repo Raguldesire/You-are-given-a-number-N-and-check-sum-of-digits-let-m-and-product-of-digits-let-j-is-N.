@@ -1,0 +1,11 @@
+n=input()
+sum=0
+for i in n:
+  sum=int(i)+sum
+product=1
+for i in n:
+  product=int(i)*product
+if str(sum+product)==n:
+  print("Great")
+else:
+  print("no")
